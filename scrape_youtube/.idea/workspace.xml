@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec727457-e3a9-45b5-a098-4d202a77743f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/initial_scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial_scrape.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/initial_scrape.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="125">
+              <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
               <folding>
                 <element signature="e#138#157#0" expanded="true" />
               </folding>
@@ -37,6 +36,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>h</find>
+      <find>df_copy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,9 +57,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="521" />
-    <option name="y" value="309" />
-    <option name="width" value="1703" />
+    <option name="x" value="380" />
+    <option name="y" value="253" />
+    <option name="width" value="1823" />
     <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,17 +68,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scrape_youtube" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrape_youtube" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -147,17 +137,17 @@
       <workItem from="1560104662040" duration="1576000" />
       <workItem from="1560258351515" duration="1357000" />
       <workItem from="1560705121504" duration="5944000" />
+      <workItem from="1562519602910" duration="5828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8877000" />
+    <option name="totallyTimeSpent" value="14705000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="521" y="309" width="1703" height="965" extended-state="0" />
-    <editor active="true" />
+    <frame x="380" y="253" width="1823" height="965" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24143739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,7 +161,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3282353" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -184,13 +174,13 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scrape_youtube$initial_scrape.coverage" NAME="initial_scrape Coverage Results" MODIFIED="1560711263923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrape_youtube$initial_scrape.coverage" NAME="initial_scrape Coverage Results" MODIFIED="1562525775871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/initial_scrape.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="125">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding>
             <element signature="e#138#157#0" expanded="true" />
           </folding>
