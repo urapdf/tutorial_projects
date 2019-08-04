@@ -24,11 +24,11 @@ driver = webdriver.Chrome()
 #driver.get(travel_search_string)
 
 #Loop through all catagories
-my_cat = ["Dog","Cat"]
+my_cat = ["Cat"]
 my_frames =[]
 for kat in my_cat:
     youtube_test_site = "https://www.youtube.com/results?search_query={}&sp=EgIQAQ%253D%253D".format(kat)
-    print(youtube_test_site)
+    #print(youtube_test_site)
     driver.get(youtube_test_site)
 
 
@@ -55,14 +55,16 @@ for kat in my_cat:
 
 
         v_title = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "h1.title yt-formatted-string"))).text
-        print (v_title)
+        if v_title == " ":
+            v_title = " Non title for video " + str(x)
+        #print (v_title)
         v_description = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div#description yt-formatted-string"))).text
         #print(v_description)
 
 
         df.loc[len(df)] = [v_id, v_title, v_description, v_category]
 
-    print (df)
+    #print (df)
     my_frames.append(df)
     uber_df = pd.concat(my_frames)
     #print(uber_df)
@@ -84,7 +86,7 @@ df_category["category"] = uber_df['category']
 # data cleaning title
 corpus = []
 for i in uber_df.index:
-    print (uber_df.shape[0]-1)
+    #print (uber_df.shape[0]-1)
     #print(df_title['title'])
     review = re.sub('[^a-zA-Z]', ' ', str(df_title['title'][i]))
     review = review.lower()
@@ -105,6 +107,10 @@ for i in range(0, uber_df.shape[0]-1):
   review = ' '.join(review)
   corpus1.append(review)
 
+dftitle = pd.DataFrame({'title':corpus})
+dfdescription = pd.DataFrame({'description':corpus1})
+
+print(dftitle + ":",dfdescription )
 driver.quit()
 
 
